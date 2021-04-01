@@ -234,7 +234,6 @@ var animate = function(t){
     graphCanvas.draw(t);
     
     pi = 2*previousZeroDvdt*(previousMaxT-previousZeroT)/previousMaxV;
-    console.log(pi);
     ctx.font = "20px arial";
     ctx.fillText("π = "+pi,50,20);
     requestAnimationFrame(animate);
